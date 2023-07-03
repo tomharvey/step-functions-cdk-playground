@@ -9,8 +9,8 @@
 		"ghcr.io/devcontainers-contrib/features/aws-cdk:2": {}
 	},
 	"remoteEnv": {
-		"AWS_DEFAULT_SSO_START_URL": "http://phasst-d.awsapps.com/start#",
-		"AWS_DEFAULT_SSO_REGION": "eu-west-1"
+		"AWS_DEFAULT_SSO_START_URL": "http://$DIRECTORY.awsapps.com/start#",
+		"AWS_DEFAULT_SSO_REGION": "us-east-1"
 	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
